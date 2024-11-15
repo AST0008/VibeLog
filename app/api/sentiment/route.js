@@ -1,6 +1,6 @@
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../config";
-import axios from "axios";
+import axios from "axios"
 
 export async function POST(req) {
   const { title, author, text } = await req.json();
